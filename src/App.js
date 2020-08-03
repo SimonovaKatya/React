@@ -31,9 +31,7 @@ const App = () => {
                 {/*   <button onClick={() => setIsRed(!isRed)}>сменить цвет</button>*/}
                 <div className='app-wrapper-content'>
                     <Route path='/dialogs' component={Dialogs}/>
-                    <Route path='/profile' component={Profile}/>
-                    <Route path='/news' component={News}/>
-                    <Route path='/music' component={Music}/>
+
 
                 </div>
             </div>
