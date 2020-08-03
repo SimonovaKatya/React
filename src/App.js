@@ -37,11 +37,7 @@ const App = () => {
             </div>
         </BrowserRouter>
     );
-}
-
-/*const returnColor = (isRed) => isRed ? {background: "red"} : {background: "blue"}
-
-const NavBar1 = ({list, isRed}) => [list.filter(item => item.name !== 'petia').map(item => <div style={returnColor(isRed)} key={item.id}>{item.name}</div>)]*/
+ (item => item.name !== 'petia').map(item => <div style={returnColor(isRed)} key={item.id}>{item.name}</div>)]*/
 
 
 export default App;
